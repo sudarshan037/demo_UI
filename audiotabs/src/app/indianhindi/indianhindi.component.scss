@@ -1,0 +1,70 @@
+.fileUpload{
+	background: #fe6655;
+	height: 20em;
+	.fileArea{
+	cursor: pointer;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    border: 1px solid white;
+    top: 2em;
+    height: 10.5em;
+    input[type=file]{
+    	width: 100%;
+    	height: 100%;
+    	opacity: 0;
+    }
+    p{
+    	position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #fff;
+    font-size: 1.3em;
+    }
+	}
+	img{
+		width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+	}
+	button{
+	background: #c11a08;
+    border-color: #fe6655;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    bottom: 4px;
+	}
+	.file-div{
+		    position: relative;
+    top: 2.5em;
+    text-align: center;
+    margin: 0 1em;
+	}
+}
+
+.leftmsg{
+    background: #fe6655;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px;
+    color: #fff;
+    margin-top:1em; 
+}
+.rightmsg{
+    position: relative;
+    left: 60%;
+    background: #fe6655;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px;
+    color: #fff;
+    margin-bottom: 1em;
+}
