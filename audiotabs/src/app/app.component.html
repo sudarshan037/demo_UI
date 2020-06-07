@@ -2,8 +2,13 @@
   <div class="col-lg-2 p-0">
     <div class="tabsComponent w-100 h-100">
       <ul>
-        <li [ngClass]="activeRoute ? 'active' : '' " (click)="changeactiveRoute('hindi')">Indian Hindi</li>
-        <li [ngClass]="!activeRoute ? 'active' : '' " (click)="changeactiveRoute('english')">Indian English</li>
+        <li><a routerLink="/indianhindi" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">Indian Hindi</a></li>
+        <li><a routerLink="/indianenglish" routerLinkActive="active">Indian english</a></li>
+        <li><a routerLink="/preUpload" routerLinkActive="active">Pre uploaded file</a></li>
+        <!-- <li [routerLinkActive]="['active']" (click)="changeactiveRoute('hindi')">Indian Hindi</li>
+        <li [routerLinkActive]="['active']" (click)="changeactiveRoute('english')">Indian English</li>
+        <li [routerLinkActive]="['active']" (click)="routing('preUpload')">Pre-Uploaded File</li> -->
       </ul>
     </div>
   </div>

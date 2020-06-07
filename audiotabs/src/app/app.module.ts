@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { IndianhindiComponent } from './indianhindi/indianhindi.component';
 import { IndianenglishComponent } from './indianenglish/indianenglish.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AudioPlayerComponent } from './audio-player/audio-player.component';
+import { PreUploadedComponent } from './pre-uploaded/pre-uploaded.component';
 @NgModule({
   declarations: [
     AppComponent,
     IndianhindiComponent,
     IndianenglishComponent,
+    AudioPlayerComponent,
+    PreUploadedComponent,
   ],
   imports: [
     BrowserModule,
